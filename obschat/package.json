@@ -1,0 +1,31 @@
+{
+  "name": "obschat",
+  "version": "0.0.1",
+  "description": "OBS chatting to be used for lecturer that provide online classes. Interaction with students is a challenge. This project gives the students insight in their own interaction. The goal is to motivate students to interact with the class.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macsnoeren/obs-animations.git"
+  },
+  "keywords": [
+    "OBS",
+    "chat",
+    "real-time",
+    "student",
+    "interaction"
+  ],
+  "author": "Maurice Snoeren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macsnoeren/obs-animations/issues"
+  },
+  "homepage": "https://github.com/macsnoeren/obs-animations#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "socket.io": "^3.1.1"
+  }
+}

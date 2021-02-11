@@ -57,7 +57,7 @@ function preload () {
 
 // Create function belonging to the Phaser framework
 function create () {
-    game.stage.backgroundColor = Phaser.Color.getRandomColor(50, 255, 255);
+    game.stage.backgroundColor = "#FF0000";
     /*
     var text = this.add.bitmapText(width/2, 0, 'desyrel', title, 64/scaleRatio, 1).setOrigin(0.5, 0);
     
